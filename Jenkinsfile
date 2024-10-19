@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/jenkins-maven-example.git', branch: 'master'
+                git url: 'https://github.com/kausalyanp/data.git', branch: 'main'
             }
         }
 
